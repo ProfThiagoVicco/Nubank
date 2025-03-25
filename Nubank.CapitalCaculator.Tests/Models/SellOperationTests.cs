@@ -50,11 +50,12 @@ public class SellOperationTests
     {
         var portfolio = new Portfolio();
         portfolio.Buy(10.00m, 1000);
-        portfolio.Sell(5.00m, 500);
 
-        var sell = new SellOperation(20.00m, 500);
+        var firstSell = new SellOperation(5.00m, 500);
+        firstSell.Apply(portfolio);
 
-        var result = sell.Apply(portfolio);
+        var secondSell = new SellOperation(20.00m, 500);
+        var result = secondSell.Apply(portfolio);
 
         Assert.Equal(500.00m, result.Tax);
     }

@@ -39,4 +39,5 @@ public class Portfolio
 
         return new TaxResult(tax);
     }
+
 }
