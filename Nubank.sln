@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nubank.CapitalCalculador", "Nubank.CapitalCalculador\Nubank.CapitalCalculador.csproj", "{873F2D9A-0779-4F26-B909-B9C02BFCFB99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nubank.CapitalCaculator.Tests", "Nubank.CapitalCaculator.Tests\Nubank.CapitalCaculator.Tests.csproj", "{2746975A-9BE1-4BD2-8E69-E3EBEFAE62A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{873F2D9A-0779-4F26-B909-B9C02BFCFB99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{873F2D9A-0779-4F26-B909-B9C02BFCFB99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{873F2D9A-0779-4F26-B909-B9C02BFCFB99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{873F2D9A-0779-4F26-B909-B9C02BFCFB99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2746975A-9BE1-4BD2-8E69-E3EBEFAE62A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2746975A-9BE1-4BD2-8E69-E3EBEFAE62A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2746975A-9BE1-4BD2-8E69-E3EBEFAE62A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2746975A-9BE1-4BD2-8E69-E3EBEFAE62A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

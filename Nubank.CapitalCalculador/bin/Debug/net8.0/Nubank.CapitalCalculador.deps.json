@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Nubank.CapitalCalculador/1.0.0": {
+        "runtime": {
+          "Nubank.CapitalCalculador.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Nubank.CapitalCalculador/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
