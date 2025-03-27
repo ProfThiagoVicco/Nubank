@@ -9,8 +9,7 @@ public class Program
 
     public static void Run(TextReader input, TextWriter output)
     {
-        string? line;
-        while ((line = input.ReadLine()) != null && line.Trim() != "")
+        while (input.ReadLine() is { } line && line.Trim() != "")
         {
             var dtoList = JsonSerializer.Deserialize<List<OperationDto>>(line);
             var operations = dtoList!.Select(dto => dto.ToDomain()).ToList();
