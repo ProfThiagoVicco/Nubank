@@ -1,5 +1,7 @@
 # 💰 Capital Gain Calculator - Nubank Code Challenge
 
+#Nome: Thiago Keller
+
 ## 📌 Sobre o Projeto
 
 Esta solução implementa um programa de linha de comando (CLI) em C# para calcular imposto sobre ganho de capital com base em operações de compra e venda de ações. A entrada e saída seguem o formato JSON, conforme especificado no desafio.
